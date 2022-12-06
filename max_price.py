@@ -7,6 +7,6 @@ def maxProfit_bruteforce(prices):
     return max_price
 
 if __name__ ==__main__:
-    input_list = [7,1,5,3,6,4]
+    input_list = [1,2,3,4,5,6,7]
     profit= maxProfit_bruteforce(input_list)
     print(profit)
